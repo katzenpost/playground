@@ -21,7 +21,7 @@ with our public test mix network.
 1. Run the registration program to register your account on the mix network:
    ::
 
-      ./registration -name alice
+      registration -name alice
 
    The above example creates the "alice" user on the "playground" provider and is
    therefore addressed as ``alice@playground``.
@@ -30,13 +30,13 @@ with our public test mix network.
    have Tor on your system you can register using our onion service like this:
    ::
 
-      ./registration -name alice -onion -torSocksAddr 127.0.0.1:9050
+      registration -name alice -onion -torSocksAddr 127.0.0.1:9050
 
 
    Or if you run the Tor Browser Bundle with the default Tor setup then simply:
    ::
 
-      ./registration -name alice -onion
+      registration -name alice -onion
 
 
 2. The above command should have printed "Success" and created a ~/.mailproxy directory
@@ -44,7 +44,7 @@ with our public test mix network.
    to run mailproxy like so:
    ::
    
-      ./mailproxy -f ~/.mailproxy/mailproxy.toml
+      mailproxy -f ~/.mailproxy/mailproxy.toml
 
 3. Configure your e-mail client to use mailproxy. That is to say,
    mailproxy exposes POP3 and SMTP services which your e-mail client
