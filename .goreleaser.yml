@@ -27,7 +27,7 @@ builds:
         goarch: 386
   -
     main: ../tools/mailproxy_registration/main.go
-    binary: registration
+    binary: katzenpost_registration
     flags: |
         -tags netgo -gcflags="-trimpath=$GOPATH" -asmflags="-trimpath=$GOPATH"
     env:
