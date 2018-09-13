@@ -14,7 +14,9 @@ This release of the Katzenpost mailproxy is to be used
 with our public test mix network.
 
 0. Install the github release of this software that is suitable
-   to your operating system and hardware architecture.
+   to your operating system and hardware architecture, found here:
+
+   * https://github.com/katzenpost/playground/releases
 
 1. Run the registration program to register your account on the mix network:
    ::
