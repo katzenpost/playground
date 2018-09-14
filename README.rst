@@ -10,8 +10,14 @@
 Playground release
 ==================
 
-This release of the Katzenpost mailproxy is to be used
-with our public test mix network.
+**Katzenpost is still pre-alpha.  DO NOT DEPEND ON IT FOR STRONG SECURITY OR ANONYMITY.**
+
+
+This release of the Katzenpost mailproxy is to be used with our public
+test mix network. Furthermore you should expect us to remove this free
+service when our testing period is over at some arbitrary time in the
+future.
+
 
 0. Install the github release of this software that is suitable
    to your operating system and hardware architecture, found here:
@@ -53,6 +59,30 @@ with our public test mix network.
 
       POP3 at 127.0.0.1 on port 2524
       SMTP at 127.0.0.1 on port 2525
+
+   Here's one possible solution:
+   1. install thunderbird::
+
+        sudo apt install thunderbird
+
+   2. Launch thunderbird and go to the Edit menu:
+
+      * select Account Settings
+
+      * click on the ``Account Actions`` drop down menu and select
+      ``Add Mail Account``. After clicking ``OK`` you should be
+      presented with a configuration window that lets you specify
+      incoming and outgoing mail settings. Click the drop down menu
+      for incoming and select ``POP3``. Set the POP3 server hostname
+      to ``127.0.0.1`` and set the POP3 port to 2524. Next set the
+      SMTP hostname to ``127.0.0.1`` and the SMTP port number
+      to 2525. Select ``None`` for both drop down menus that by
+      default specify TLS is used.  Set POP3 authentication to
+      ``Normal Password`` and SMTP authentication to ``No
+      Authentication``. POP3 authentication username must be set to
+      ``alice@playground`` where ``alice`` is replaced with your username
+      that you registered with. The password can be set to anything.
+
 
 Contact
 =======
