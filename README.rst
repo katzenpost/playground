@@ -19,8 +19,8 @@ service when our testing period is over at some arbitrary time in the
 future.
 
 
-0. Install the github release of this software that is suitable
-   to your operating system and hardware architecture, found here:
+0. Install the latest github release of this software (versions v0.0.2 or later)
+   that is suitable to your operating system and hardware architecture, found here:
 
    * https://github.com/katzenpost/playground/releases
 
