@@ -27,7 +27,7 @@ future.
 1. Run the registration program to register your account on the mix network:
    ::
 
-      registration -name alice
+      katzenpost_registration -name alice
 
    The above example creates the "alice" user on the "playground" provider and is
    therefore addressed as ``alice@playground``.
@@ -36,13 +36,13 @@ future.
    have Tor on your system you can register using our onion service like this:
    ::
 
-      registration -name alice -onion -torSocksAddr 127.0.0.1:9050
+      katzenpost_registration -name alice -onion -torSocksAddr 127.0.0.1:9050
 
 
    Or if you run the Tor Browser Bundle with the default Tor setup then simply:
    ::
 
-      registration -name alice -onion
+      katzenpost_registration -name alice -onion
 
 
 2. The above command should have printed "Success" and created a ~/.mailproxy directory
