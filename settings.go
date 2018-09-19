@@ -18,11 +18,11 @@ package playground
 
 const (
 	// NOTICE: change me to correct playground information
-	RegistrationAddr      = "playground.katzenpost.mixnetworks.org:61532"
-	OnionRegistrationAddr = "qv4f63cudqyhejjy.onion:62754"
-	ProviderName          = "playground"
-	ProviderKeyPin        = "imigzI26tTRXyYLXujLEPI9QrNYOEgC4DElsFdP9acQ="
-	AuthorityAddr         = "95.179.156.72:29483"
-	OnionAuthorityAddr    = "lxqkz5d5e3pehagu.onion:61832"
-	AuthorityPublicKey    = "o4w1Nyj/nKNwho5SWfAIfh7SMU8FRx52nMHGgYsMHqQ="
+	RegistrationAddr      = "idefix.katzenpost.mixnetworks.org:39484"
+	OnionRegistrationAddr = "qv4f63cudqyhejjy.onion:29484"
+	ProviderName          = "idefix"
+	ProviderKeyPin        = "PZWT07fWnLsZr8OGibNlvK34Cr/m98T+awhZrr53IJI="
+	AuthorityAddr         = "37.218.242.147:29485"
+	OnionAuthorityAddr    = "l4lqji3jlkcul23w.onion:29485"
+	AuthorityPublicKey    = "39Xhom6bPvez2gECACuTxm/DaxLRTGCMP7/KA78+vNw="
 )
