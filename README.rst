@@ -10,14 +10,15 @@
 Playground release
 ==================
 
-**Katzenpost is still pre-alpha.  DO NOT DEPEND ON IT FOR STRONG SECURITY OR ANONYMITY.**
+**Katzenpost is still alpha. DO NOT DEPEND ON IT FOR STRONG SECURITY OR ANONYMITY. This playground does not provide any anonymity whatsoever.**
 
 
 This release of the Katzenpost mailproxy is to be used with our public
-test mix network. Furthermore you should expect us to remove this free
+test mix network. Furthermore you should expect us to remove this demo
 service when our testing period is over at some arbitrary time in the
 future.
 
+Please consult the Katzenpost Handbook for more information: https://katzenpost.mixnetworks.org/docs/handbook/
 
 0. Install the latest github release of this software (versions v0.0.2 or later)
    that is suitable to your operating system and hardware architecture, found here:
