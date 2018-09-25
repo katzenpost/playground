@@ -19,7 +19,7 @@ package playground
 const (
 	// NOTICE: change me to correct playground information
 	RegistrationAddr      = "idefix.katzenpost.mixnetworks.org:39484"
-	OnionRegistrationAddr = "qv4f63cudqyhejjy.onion:29484"
+	OnionRegistrationAddr = "6cwob5th2li7zxqp.onion:29484"
 	ProviderName          = "idefix"
 	ProviderKeyPin        = "PZWT07fWnLsZr8OGibNlvK34Cr/m98T+awhZrr53IJI="
 	AuthorityAddr         = "37.218.242.147:29485"
